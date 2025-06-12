@@ -27,6 +27,9 @@ Permite a los usuarios realizar operaciones reales como ver saldo, consignar, re
    git clone https://github.com/kleyderBackend/Simular-Bancario-Por-Consola.git
    cd Simular-Bancario-Por-Consola
 2.Ejecutá el proyecto:
+   npm init -y
+   npm install
+   package.json: "type": "module"
    node app.js
 
 👤 Usuarios de prueba
