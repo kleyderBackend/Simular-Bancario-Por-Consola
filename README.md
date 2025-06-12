@@ -3,6 +3,14 @@
 Sistema bancario básico creado en Node.js para ser ejecutado completamente desde la consola.  
 Permite a los usuarios realizar operaciones reales como ver saldo, consignar, retirar y transferir dinero entre cuentas, utilizando validaciones lógicas y control de flujo con `readline`.
 
+Este proyecto fue creado como parte de mi formación autodidacta para convertirme en desarrollador backend.  
+Quise simular un sistema bancario real utilizando Node.js, readline y lógica pura de programación, sin frameworks.  
+Mi objetivo es dominar el backend desde cero, y esta app refleja mi evolución técnica y personal.
+
+## 📸 Vista previa
+![image](https://github.com/user-attachments/assets/e15c8b27-bdb4-44d7-a26a-b7b10c118c69)
+
+
 ## 🚀 Funcionalidades
 
 - Inicio de sesión con usuario y contraseña
