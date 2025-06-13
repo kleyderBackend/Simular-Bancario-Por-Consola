@@ -7,7 +7,7 @@ export function verSaldo(user) {
 	menu(user);
 }
 export function consignar(user) {
-	rl.question('ingrese el monto a consignar: ', (monto) => {
+	rl.question('ingrese el monto a frpoconsignar: ', (monto) => {
 		const montoParse = parseInt(monto);
 		if (isNaN(montoParse) || montoParse <= 0) {
 			console.log('Cantidad inválida, intenta de nuevo.');
@@ -71,7 +71,7 @@ export function Transferir(user) {
 				console.log(` Transferencia exitosa:
         De: ${user.folder} → ${receptor.folder}
         Nuevo saldo : ${user.folder}: ${user.balance}
-				nuevo saldo : ${receptor.folder}: ${receptor.balance} `);
+		nuevo saldo : ${receptor.folder}: ${receptor.balance} `);
 				menu(user);
 			}, 2000);
 		});

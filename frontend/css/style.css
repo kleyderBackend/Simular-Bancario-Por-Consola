@@ -1,0 +1,57 @@
+#title-pgn {
+    background-color: rgba(0, 0, 255, 0.886);
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    /* Da espacio interno para que respire el contenido */
+    color: white;
+    /* Letras blancas */
+    text-align: center;
+    /* Centra el texto */
+    font-size: 1rem;
+    /* Hace el texto grande y visible */
+    font-family: Arial, sans-serif;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    /* 👈 Uno debajo del otro */
+    gap: 10px;
+    /* Espacio entre botones */
+    width: 300px;
+    /* Ancho fijo elegante */
+    margin: 0 auto;
+    /* Centrado horizontal */
+    padding: 20px;
+}
+
+button {
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+#btn-exit {
+    background-color: white;
+    color: #1f4fb2;
+    border: 2px solid #1f4fb2;
+}
+
+#btn-show-balance,
+#btn-deposit,
+#btn-withdraw,
+#btn-transfer {
+    background-color: #1f4fb2;
+}
+
+button:hover {
+    transform: scale(1.03);
+    opacity: 0.9;
+}
